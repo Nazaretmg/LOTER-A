@@ -33,15 +33,30 @@ section{
 }
 
 h2{
-    
+    background: rgb(36,0,3);
+background: rgb(36,0,3);
+background: linear-gradient(180deg, rgba(36,0,3,1) 0%, rgba(245,238,238,1) 0%, rgba(245,238,238,0.7987570028011204) 100%);
     color: red;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     margin-top: 20px;
+}
+
+.aviso{
+    font-size: 12px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.resalto{
+    color: black;
+    font-weight: bold;
+    
 }
 
 .separador{
     margin-bottom: 20px;
     padding: 10px;
+    margin-top: 15px;
 }
 
 
@@ -76,6 +91,9 @@ footer p{
     <section>
   <div id="container">
     <h2>Comprobador de Lotería </h2>
+
+    <p class="aviso"><span class="resalto">¡AVISO!</span> Este programa ya tiene introducidos los números que juega el OAL. Por lo tanto, <span class="resalto">NO</span> escribas tu número.
+    Introducir <span class="resalto">SOLO</span> los premios que vayan cantando los niños y así sabréis si vuestros números han sido premiados.</p>
 
     <!-- Campos de entrada para los cinco números de premio -->
     <label for="premio1">Primer premio:</label>
